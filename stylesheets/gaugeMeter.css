@@ -1,0 +1,320 @@
+.GaugeMeter{
+	Position:        Relative;
+	Text-Align:      Center;
+	Overflow:        Hidden;
+	Cursor:          Default;
+  z-index: 1;
+}
+
+.GaugeMeter SPAN,
+    .GaugeMeter B{
+    	Margin:          -14% 25%;
+    	Width:           54%;
+    	Position:        Absolute;
+    	Text-align:      Center;
+    	Display:         Inline-Block;
+    	Color:           RGBa(0,0,0,.8);
+    	Font-Weight:     100;
+    	Font-Family:     "Open Sans", IKEA Sans;
+    	Overflow:        Hidden;
+    	White-Space:     NoWrap;
+    	Text-Overflow:   Ellipsis;
+}
+
+.GaugeMeter[data-style="Semi"] B{
+	Margin:          0 10%;
+	Width:           80%;
+}
+
+.GaugeMeter S,
+    .GaugeMeter U{
+    	Font-Size:       20em;
+    	Opacity:         .5;
+      Font-Weight:     900;
+}
+
+
+.GaugeMeter B{
+	Color:           Black;
+  Margin:          -18% 23%;
+	Font-Weight:     200;
+	Font-Size:       2.5em;
+	Opacity:         1;
+}
+
+
+#GaugeMeter_VRM{
+	Position:        Absolute;
+	Text-Align:      Center;
+	Overflow:        Hidden;
+	Cursor:          Default;
+  z-index: 10;
+}
+
+#GaugeMeter_VRM SPAN,
+    #GaugeMeter_VRM B{
+    	Margin:          16% 25%;
+    	Width:           54%;
+    	Position:        Relative;
+    	Text-align:      Center;
+    	Display:         Inline-Block;
+    	Color:           RGBa(0,0,0,.8);
+    	Font-Weight:     100;
+    	Font-Family:     "Open Sans", IKEA Sans;
+    	Overflow:        Hidden;
+    	White-Space:     NoWrap;
+    	Text-Overflow:   Ellipsis;
+}
+
+#GaugeMeter_VRM[data-style="Semi"] B{
+	Margin:          0 0%;
+	Width:           80%;
+}
+
+#GaugeMeter_VRM S,
+    #GaugeMeter_VRM U{
+    	Font-Size:       20em;
+    	Opacity:         .5;
+      Font-Weight:     900;
+}
+
+
+#GaugeMeter_VRM B{
+	Color:           Black;
+  Margin:          12% 23%;
+	Font-Weight:     200;
+	Font-Size:       2.5em;
+	Opacity:         1;
+}
+
+#GaugeMeter_CPU_Clock{
+	Position:        Absolute;
+	Text-Align:      Center;
+	Overflow:        Hidden;
+	Cursor:          Default;
+  z-index: 10;
+}
+
+#GaugeMeter_CPU_Clock SPAN,
+    #GaugeMeter_CPU_Clock B{
+    	Margin:          -26% 25%;
+    	Width:           54%;
+    	Position:        Absolute;
+    	Text-align:      Center;
+    	Display:         Inline-Block;
+    	Color:           RGBa(0,0,0,.8);
+    	Font-Weight:     100;
+    	Font-Family:     "Open Sans", IKEA Sans;
+    	Overflow:        Hidden;
+    	White-Space:     NoWrap;
+    	Text-Overflow:   Ellipsis;
+
+}
+
+#GaugeMeter_CPU_Clock[data-style="Semi"] B{
+	Margin:          0 0%;
+	Width:           80%;
+}
+
+#GaugeMeter_CPU_Clock S,
+    #GaugeMeter_CPU_Clock U{
+    	Font-Size:       .5em;
+    	Opacity:         .5;
+      Font-Weight:     100;
+}
+
+#GaugeMeter_CPU_Clock B{
+	Color:           Black;
+  Margin:          26% 23%;
+	Font-Weight:     200;
+	Font-Size:       .5em;
+	Opacity:         1;
+}
+
+/* Second Gague cluster */
+#GaugeMeter_DIMM{
+	Position:        Absolute;
+	Text-Align:      Center;
+	Margin:          0% 24.7%;
+	Overflow:        Hidden;
+	Cursor:          Default;
+  z-index: 10;
+}
+
+#GaugeMeter_DIMM SPAN,
+    #GaugeMeter_DIMM B{
+    	Margin:          16% 25%;
+    	Width:           54%;
+    	Position:        Absolute;
+    	Text-align:      Center;
+    	Display:         Inline-Block;
+    	Color:           RGBa(0,0,0,.8);
+    	Font-Weight:     100;
+    	Font-Family:     "Open Sans", IKEA Sans;
+    	Overflow:        Hidden;
+    	White-Space:     NoWrap;
+    	Text-Overflow:   Ellipsis;
+}
+
+#GaugeMeter_DIMM[data-style="Semi"] B{
+	Margin:          0 0%;
+	Width:           80%;
+}
+
+#GaugeMeter_DIMM S,
+    #GaugeMeter_DIMM U{
+    	Font-Size:       20em;
+    	Opacity:         .5;
+      Font-Weight:     900;
+}
+
+
+#GaugeMeter_DIMM B{
+	Color:           Black;
+  Margin:          12% 23%;
+	Font-Weight:     200;
+	Font-Size:       2.5em;
+	Opacity:         1;
+}
+/* Second Gague cluster */
+
+
+/* Third Gague cluster */
+#GaugeMeter_GPU_Clock{
+	Position:        Absolute;
+	Margin:          0% 49.5%;
+	Text-Align:      Center;
+	Overflow:        Hidden;
+	Cursor:          Default;
+  z-index: 10;
+}
+
+#GaugeMeter_GPU_Clock SPAN,
+    #GaugeMeter_GPU_Clock B{
+    	Margin:          -26% 25%;
+    	Width:           54%;
+    	Position:        Absolute;
+    	Text-align:      Center;
+    	Display:         Inline-Block;
+    	Color:           RGBa(0,0,0,.8);
+    	Font-Weight:     100;
+    	Font-Family:     "Open Sans", IKEA Sans;
+    	Overflow:        Hidden;
+    	White-Space:     NoWrap;
+    	Text-Overflow:   Ellipsis;
+
+}
+
+#GaugeMeter_GPU_Clock[data-style="Semi"] B{
+	Margin:          0 0%;
+	Width:           80%;
+}
+
+#GaugeMeter_GPU_Clock S,
+    #GaugeMeter_GPU_Clock U{
+    	Font-Size:       .5em;
+    	Opacity:         .5;
+      Font-Weight:     100;
+}
+
+
+#GaugeMeter_GPU_Clock B{
+	Color:           Black;
+  Margin:          26% 23%;
+	Font-Weight:     200;
+	Font-Size:       .5em;
+	Opacity:         1;
+}
+
+#GaugeMeter_GPU_MEM{
+	Position:        Absolute;
+	Text-Align:      Center;
+	Margin:          0% 49.5%;
+	Overflow:        Hidden;
+	Cursor:          Default;
+  z-index: 10;
+}
+
+#GaugeMeter_GPU_MEM SPAN,
+    #GaugeMeter_GPU_MEM B{
+    	Margin:          16% 25%;
+    	Width:           54%;
+    	Position:        Absolute;
+    	Text-align:      Center;
+    	Display:         Inline-Block;
+    	Color:           RGBa(0,0,0,.8);
+    	Font-Weight:     100;
+    	Font-Family:     "Open Sans", IKEA Sans;
+    	Overflow:        Hidden;
+    	White-Space:     NoWrap;
+    	Text-Overflow:   Ellipsis;
+}
+
+#GaugeMeter_GPU_MEM[data-style="Semi"] B{
+	Margin:          0 0%;
+	Width:           80%;
+}
+
+#GaugeMeter_GPU_MEM S,
+    #GaugeMeter_GPU_MEM U{
+    	Font-Size:       20em;
+    	Opacity:         .5;
+      Font-Weight:     900;
+}
+
+
+#GaugeMeter_GPU_MEM B{
+	Color:           Black;
+  Margin:          12% 23%;
+	Font-Weight:     200;
+	Font-Size:       2.5em;
+	Opacity:         1;
+}
+/* Third Gague cluster */
+
+/* Fourth Gague cluster */
+#GaugeMeter_PUMP{
+	Position:        Absolute;
+	Text-Align:      Center;
+	Margin:          0% 74.2%;
+	Overflow:        Hidden;
+	Cursor:          Default;
+  z-index: 10;
+}
+
+#GaugeMeter_PUMP SPAN,
+    #GaugeMeter_PUMP B{
+    	Margin:          16% 25%;
+    	Width:           54%;
+    	Position:        Absolute;
+    	Text-align:      Center;
+    	Display:         Inline-Block;
+    	Color:           RGBa(0,0,0,.8);
+    	Font-Weight:     100;
+    	Font-Family:     "Open Sans", IKEA Sans;
+    	Overflow:        Hidden;
+    	White-Space:     NoWrap;
+    	Text-Overflow:   Ellipsis;
+}
+
+#GaugeMeter_PUMP[data-style="Semi"] B{
+	Margin:          0 0%;
+	Width:           80%;
+}
+
+#GaugeMeter_PUMP S,
+    #GaugeMeter_PUMP U{
+    	Font-Size:       20em;
+    	Opacity:         .5;
+      Font-Weight:     900;
+}
+
+
+#GaugeMeter_PUMP B{
+	Color:           Black;
+  Margin:          12% 23%;
+	Font-Weight:     200;
+	Font-Size:       2.5em;
+	Opacity:         1;
+}
+/* Fourth Gague cluster */

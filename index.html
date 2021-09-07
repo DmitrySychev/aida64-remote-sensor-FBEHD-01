@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- <link rel="stylesheet" href="stylesheets/styles.css"> -->
+    <script src="src/index.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="./js/GaugeMeter.js"></script>
+
+    <link rel="stylesheet" href="./stylesheets/gaugeMeter.css">
+    <link rel="stylesheet" href="./stylesheets/style.css">
+    <title></title>
+  </head>
+  <body>
+
+    <script>
+      $(document).ready(function(){
+        $(".GaugeMeter").gaugeMeter();
+      });
+    </script>
+
+    <!-- start of first gauge cluster -->
+    <div class='flex-container'>
+      <div
+        class="GaugeMeter"
+        id="GaugeMeter_1"
+        data-animate_gauge_colors="1"
+        data-animationstep = 0
+        data-size="475"
+        data-width="35"
+        data-label="CPU"
+        data-text_size="0.22"
+        data-text_lower_size="0.22"
+        data-animate_gauge_colors="1"
+        data-theme="LightBlue-DarkBlue"
+      >
+      </div>
+
+      <div
+        class="GaugeMeter"
+        id="GaugeMeter_VRM"
+        data-size="475"
+        data-label="VRM"
+        data-text_size="0.22"
+        data-width="35"
+        data-theme="DarkBlue"
+      >
+      </div>
+
+      <div
+        class="GaugeMeter"
+        id="GaugeMeter_CPU_Clock"
+        data-size="475"
+        data-text_size="0.08"
+        data-width="35"
+        data-theme="DarkBlue"
+      >
+      </div>
+      <!-- end of first gauge cluster -->
+
+      <!-- start of second gauge cluster -->
+      <div
+        class="GaugeMeter"
+        id="GaugeMeter_2"
+        data-animate_gauge_colors="1"
+        data-animationstep = 0
+        data-size="475"
+        data-width="35"
+        data-label="PCH"
+        data-text_size="0.22"
+        data-animate_gauge_colors="1"
+        data-theme="LightBlue-DarkBlue"
+      >
+      </div>
+
+      <div
+        class="GaugeMeter"
+        id="GaugeMeter_DIMM"
+        data-size="475"
+        data-label="DIMM"
+        data-text_size="0.22"
+        data-width="35"
+        data-theme="DarkBlue"
+      >
+      </div>
+      <!-- end of second gauge cluster -->
+
+      <!-- start of third gauge cluster -->
+      <div
+        class="GaugeMeter"
+        id="GaugeMeter_GPU_Clock"
+        data-size="475"
+        data-text_size="0.08"
+        data-width="35"
+        data-theme="DarkBlue"
+      >
+      </div>
+
+      <div
+        class="GaugeMeter"
+        id="GaugeMeter_3"
+        data-animate_gauge_colors="1"
+        data-animationstep = 0
+        data-size="475"
+        data-width="35"
+        data-label="GPU"
+        data-text_size="0.22"
+        data-animate_gauge_colors="1"
+        data-theme="LightBlue-DarkBlue"
+      >
+      </div>
+
+      <div
+        class="GaugeMeter"
+        id="GaugeMeter_GPU_MEM"
+        data-size="475"
+        data-label="MEM"
+        data-text_size="0.22"
+        data-width="35"
+        data-theme="DarkBlue"
+      >
+      </div>
+      <!-- end of third gauge cluster -->
+
+      <!-- start of fourth gauge cluster -->
+      <div
+        class="GaugeMeter"
+        id="GaugeMeter_4"
+        data-animate_gauge_colors="1"
+        data-animationstep = 0
+        data-size="475"
+        data-width="35"
+        data-label="WATER"
+        data-text_size="0.22"
+        data-animate_gauge_colors="1"
+        data-theme="LightBlue-DarkBlue"
+      >
+      </div>
+
+      <div
+        class="GaugeMeter"
+        id="GaugeMeter_PUMP"
+        data-size="475"
+        data-label="PUMP"
+        data-text_size="0.22"
+        data-width="35"
+        data-theme="DarkBlue"
+      >
+      </div>
+      <!-- end of fourth gauge cluster -->
+
+    </div>
+  </body>
+</html>
