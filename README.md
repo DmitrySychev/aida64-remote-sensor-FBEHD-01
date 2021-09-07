@@ -4,6 +4,8 @@ In my use case, I'm using a raspberry pi to run a fullscreen firefox window to d
 
 I welcome any pull requestes if you'd like to make the tool better or compatible with more displays. 
 
+![example](https://user-images.githubusercontent.com/11450977/132271487-3f0452a8-8930-4eb4-bc29-8ca15a0741b5.jpg)
+
 * Software used - https://www.aida64.com/
 * Hardware used - https://www.raspberrypi.org/products/raspberry-pi-4-model-b/
 * Gague library used - https://github.com/Mictronics/GaugeMeter
