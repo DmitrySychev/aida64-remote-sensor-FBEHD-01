@@ -55,7 +55,7 @@
     #GaugeMeter_VRM B{
     	Margin:          16% 25%;
     	Width:           54%;
-    	Position:        Relative;
+    	/* Position:        Relative; */
     	Text-align:      Center;
     	Display:         Inline-Block;
     	Color:           RGBa(0,0,0,.8);
@@ -132,7 +132,7 @@
 }
 
 /* Second Gague cluster */
-#GaugeMeter_DIMM{
+#GaugeMeter_GPU_WATTAGE{
 	Position:        Absolute;
 	Text-Align:      Center;
 	Margin:          0% 24.7%;
@@ -141,8 +141,8 @@
   z-index: 10;
 }
 
-#GaugeMeter_DIMM SPAN,
-    #GaugeMeter_DIMM B{
+#GaugeMeter_GPU_WATTAGE SPAN,
+    #GaugeMeter_GPU_WATTAGE B{
     	Margin:          16% 25%;
     	Width:           54%;
     	Position:        Absolute;
@@ -156,20 +156,20 @@
     	Text-Overflow:   Ellipsis;
 }
 
-#GaugeMeter_DIMM[data-style="Semi"] B{
+#GaugeMeter_GPU_WATTAGE[data-style="Semi"] B{
 	Margin:          0 0%;
 	Width:           80%;
 }
 
-#GaugeMeter_DIMM S,
-    #GaugeMeter_DIMM U{
+#GaugeMeter_GPU_WATTAGE S,
+    #GaugeMeter_GPU_WATTAGE U{
     	Font-Size:       20em;
     	Opacity:         .5;
       Font-Weight:     900;
 }
 
 
-#GaugeMeter_DIMM B{
+#GaugeMeter_GPU_WATTAGE B{
 	Color:           Black;
   Margin:          12% 23%;
 	Font-Weight:     200;
@@ -239,7 +239,7 @@
     #GaugeMeter_GPU_MEM B{
     	Margin:          16% 25%;
     	Width:           54%;
-    	Position:        Absolute;
+    	/* Position:        Absolute; */
     	Text-align:      Center;
     	Display:         Inline-Block;
     	Color:           RGBa(0,0,0,.8);
@@ -273,7 +273,7 @@
 /* Third Gague cluster */
 
 /* Fourth Gague cluster */
-#GaugeMeter_PUMP{
+#GaugeMeter_GPU_FAN{
 	Position:        Absolute;
 	Text-Align:      Center;
 	Margin:          0% 74.2%;
@@ -282,11 +282,11 @@
   z-index: 10;
 }
 
-#GaugeMeter_PUMP SPAN,
-    #GaugeMeter_PUMP B{
+#GaugeMeter_GPU_FAN SPAN,
+    #GaugeMeter_GPU_FAN B{
     	Margin:          16% 25%;
     	Width:           54%;
-    	Position:        Absolute;
+    	/* Position:        Absolute; */
     	Text-align:      Center;
     	Display:         Inline-Block;
     	Color:           RGBa(0,0,0,.8);
@@ -297,20 +297,20 @@
     	Text-Overflow:   Ellipsis;
 }
 
-#GaugeMeter_PUMP[data-style="Semi"] B{
+#GaugeMeter_GPU_FAN[data-style="Semi"] B{
 	Margin:          0 0%;
 	Width:           80%;
 }
 
-#GaugeMeter_PUMP S,
-    #GaugeMeter_PUMP U{
+#GaugeMeter_GPU_FAN S,
+    #GaugeMeter_GPU_FAN U{
     	Font-Size:       20em;
     	Opacity:         .5;
       Font-Weight:     900;
 }
 
 
-#GaugeMeter_PUMP B{
+#GaugeMeter_GPU_FAN B{
 	Color:           Black;
   Margin:          12% 23%;
 	Font-Weight:     200;
