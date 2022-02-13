@@ -21,9 +21,9 @@ document.addEventListener("DOMContentLoaded", function(e) {
   const gpuClockGauge = event.data.split("|")[9].slice(9, 17)
   const pumpRpmGauge = event.data.split("|")[19].slice(11, 15)
   const cpuWattageGauge = event.data.split("|")[17].slice(11, 14)
-  const gpuWattageGauge = event.data.split("|")[21].slice(3, 6)
+  const gpuWattageGauge = event.data.split("|")[21].slice(3, 7)
   const fansGauge = event.data.split("|")[23].slice(11, 15)
-  const gpuFanGauge = event.data.split("|")[25].slice(7, 9)
+  const gpuFanGauge = event.data.split("|")[25].slice(7, 12)
   const fanSpeedAsInt = parseInt(fansGauge)
 
   $("#GaugeMeter_CPU_Clock").gaugeMeter({text: cpuClockGauge, style: "Arch"});

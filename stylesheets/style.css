@@ -4,8 +4,8 @@
 }
 
 html, body {
-  max-height: 200px;
-  min-width: 200px;
+  max-height: 180px;
+  min-width: 180px;
   max-width: 1920px;
   min-width: 1920px;
 }
